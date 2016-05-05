@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShowViewController.h
 //  AddressBook
 //
 //  Created by apple on 16/5/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ShowViewController : UIViewController
 
 @end
-

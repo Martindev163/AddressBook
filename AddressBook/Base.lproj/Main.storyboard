@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="M34-nE-TvH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="fxO-U4-Nx0">
+            <objects>
+                <navigationController id="M34-nE-TvH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cpi-JG-Fd7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Kyj-dM-wwT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n7r-Lm-o6j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-195" y="452"/>
+        </scene>
+        <!--Start View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +32,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backImageView" translatesAutoresizingMaskIntoConstraints="NO" id="YPt-CS-PAy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xh4-oL-g21">
+                                <rect key="frame" x="200" y="364" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="bvU-nT-qRH"/>
+                                    <constraint firstAttribute="height" constant="100" id="mDS-L3-Fqz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="35"/>
+                                <state key="normal" title="enter"/>
+                                <connections>
+                                    <action selector="enterAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XXu-dv-rlq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YPt-CS-PAy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6fx-Xd-e19"/>
+                            <constraint firstItem="YPt-CS-PAy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bsm-aP-6r0"/>
+                            <constraint firstItem="YPt-CS-PAy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CFl-Sh-wn7"/>
+                            <constraint firstItem="xh4-oL-g21" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J5k-x2-bue"/>
+                            <constraint firstItem="xh4-oL-g21" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="300" id="OKH-qn-qLs"/>
+                            <constraint firstAttribute="trailing" secondItem="YPt-CS-PAy" secondAttribute="trailing" id="bS3-jD-Kor"/>
+                            <constraint firstItem="YPt-CS-PAy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="d8h-M8-e36"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YPt-CS-PAy" secondAttribute="bottom" id="hsl-xB-qLB"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="7AV-Xl-sPq"/>
+                    <connections>
+                        <outlet property="bgImgView" destination="YPt-CS-PAy" id="MC6-6Z-FnF"/>
+                        <outlet property="enterBtn" destination="xh4-oL-g21" id="6ds-3V-wu8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="584" y="372"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backImageView" width="466" height="658"/>
+    </resources>
 </document>
