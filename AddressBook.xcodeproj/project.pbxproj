@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1821728C1CDAE1020021FC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821728B1CDAE1020021FC82 /* main.m */; };
+		1821728F1CDAE1020021FC82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821728E1CDAE1020021FC82 /* AppDelegate.m */; };
+		182172921CDAE1020021FC82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182172911CDAE1020021FC82 /* ViewController.m */; };
+		182172951CDAE1020021FC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182172931CDAE1020021FC82 /* Main.storyboard */; };
+		182172971CDAE1020021FC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182172961CDAE1020021FC82 /* Assets.xcassets */; };
+		1821729A1CDAE1020021FC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182172981CDAE1020021FC82 /* LaunchScreen.storyboard */; };
+		182172A51CDAE1020021FC82 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182172A41CDAE1020021FC82 /* AddressBookTests.m */; };
+		182172B01CDAE1020021FC82 /* AddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182172AF1CDAE1020021FC82 /* AddressBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182172A11CDAE1020021FC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1821727F1CDAE1010021FC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182172861CDAE1010021FC82;
+			remoteInfo = AddressBook;
+		};
+		182172AC1CDAE1020021FC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1821727F1CDAE1010021FC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182172861CDAE1010021FC82;
+			remoteInfo = AddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182172871CDAE1010021FC82 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821728B1CDAE1020021FC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1821728D1CDAE1020021FC82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1821728E1CDAE1020021FC82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182172901CDAE1020021FC82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182172911CDAE1020021FC82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182172941CDAE1020021FC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182172961CDAE1020021FC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182172991CDAE1020021FC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1821729B1CDAE1020021FC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182172A01CDAE1020021FC82 /* AddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182172A41CDAE1020021FC82 /* AddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookTests.m; sourceTree = "<group>"; };
+		182172A61CDAE1020021FC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182172AB1CDAE1020021FC82 /* AddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182172AF1CDAE1020021FC82 /* AddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUITests.m; sourceTree = "<group>"; };
+		182172B11CDAE1020021FC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182172841CDAE1010021FC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821729D1CDAE1020021FC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182172A81CDAE1020021FC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1821727E1CDAE1010021FC82 = {
+			isa = PBXGroup;
+			children = (
+				182172891CDAE1010021FC82 /* AddressBook */,
+				182172A31CDAE1020021FC82 /* AddressBookTests */,
+				182172AE1CDAE1020021FC82 /* AddressBookUITests */,
+				182172881CDAE1010021FC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182172881CDAE1010021FC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182172871CDAE1010021FC82 /* AddressBook.app */,
+				182172A01CDAE1020021FC82 /* AddressBookTests.xctest */,
+				182172AB1CDAE1020021FC82 /* AddressBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182172891CDAE1010021FC82 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				1821728D1CDAE1020021FC82 /* AppDelegate.h */,
+				1821728E1CDAE1020021FC82 /* AppDelegate.m */,
+				182172901CDAE1020021FC82 /* ViewController.h */,
+				182172911CDAE1020021FC82 /* ViewController.m */,
+				182172931CDAE1020021FC82 /* Main.storyboard */,
+				182172961CDAE1020021FC82 /* Assets.xcassets */,
+				182172981CDAE1020021FC82 /* LaunchScreen.storyboard */,
+				1821729B1CDAE1020021FC82 /* Info.plist */,
+				1821728A1CDAE1020021FC82 /* Supporting Files */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		1821728A1CDAE1020021FC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1821728B1CDAE1020021FC82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182172A31CDAE1020021FC82 /* AddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				182172A41CDAE1020021FC82 /* AddressBookTests.m */,
+				182172A61CDAE1020021FC82 /* Info.plist */,
+			);
+			path = AddressBookTests;
+			sourceTree = "<group>";
+		};
+		182172AE1CDAE1020021FC82 /* AddressBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182172AF1CDAE1020021FC82 /* AddressBookUITests.m */,
+				182172B11CDAE1020021FC82 /* Info.plist */,
+			);
+			path = AddressBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182172861CDAE1010021FC82 /* AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182172B41CDAE1020021FC82 /* Build configuration list for PBXNativeTarget "AddressBook" */;
+			buildPhases = (
+				182172831CDAE1010021FC82 /* Sources */,
+				182172841CDAE1010021FC82 /* Frameworks */,
+				182172851CDAE1010021FC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBook;
+			productName = AddressBook;
+			productReference = 182172871CDAE1010021FC82 /* AddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1821729F1CDAE1020021FC82 /* AddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182172B71CDAE1020021FC82 /* Build configuration list for PBXNativeTarget "AddressBookTests" */;
+			buildPhases = (
+				1821729C1CDAE1020021FC82 /* Sources */,
+				1821729D1CDAE1020021FC82 /* Frameworks */,
+				1821729E1CDAE1020021FC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182172A21CDAE1020021FC82 /* PBXTargetDependency */,
+			);
+			name = AddressBookTests;
+			productName = AddressBookTests;
+			productReference = 182172A01CDAE1020021FC82 /* AddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182172AA1CDAE1020021FC82 /* AddressBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182172BA1CDAE1020021FC82 /* Build configuration list for PBXNativeTarget "AddressBookUITests" */;
+			buildPhases = (
+				182172A71CDAE1020021FC82 /* Sources */,
+				182172A81CDAE1020021FC82 /* Frameworks */,
+				182172A91CDAE1020021FC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182172AD1CDAE1020021FC82 /* PBXTargetDependency */,
+			);
+			name = AddressBookUITests;
+			productName = AddressBookUITests;
+			productReference = 182172AB1CDAE1020021FC82 /* AddressBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1821727F1CDAE1010021FC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					182172861CDAE1010021FC82 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1821729F1CDAE1020021FC82 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 182172861CDAE1010021FC82;
+					};
+					182172AA1CDAE1020021FC82 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 182172861CDAE1010021FC82;
+					};
+				};
+			};
+			buildConfigurationList = 182172821CDAE1010021FC82 /* Build configuration list for PBXProject "AddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1821727E1CDAE1010021FC82;
+			productRefGroup = 182172881CDAE1010021FC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182172861CDAE1010021FC82 /* AddressBook */,
+				1821729F1CDAE1020021FC82 /* AddressBookTests */,
+				182172AA1CDAE1020021FC82 /* AddressBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182172851CDAE1010021FC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821729A1CDAE1020021FC82 /* LaunchScreen.storyboard in Resources */,
+				182172971CDAE1020021FC82 /* Assets.xcassets in Resources */,
+				182172951CDAE1020021FC82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821729E1CDAE1020021FC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182172A91CDAE1020021FC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182172831CDAE1010021FC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182172921CDAE1020021FC82 /* ViewController.m in Sources */,
+				1821728F1CDAE1020021FC82 /* AppDelegate.m in Sources */,
+				1821728C1CDAE1020021FC82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821729C1CDAE1020021FC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182172A51CDAE1020021FC82 /* AddressBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182172A71CDAE1020021FC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182172B01CDAE1020021FC82 /* AddressBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182172A21CDAE1020021FC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182172861CDAE1010021FC82 /* AddressBook */;
+			targetProxy = 182172A11CDAE1020021FC82 /* PBXContainerItemProxy */;
+		};
+		182172AD1CDAE1020021FC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182172861CDAE1010021FC82 /* AddressBook */;
+			targetProxy = 182172AC1CDAE1020021FC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182172931CDAE1020021FC82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182172941CDAE1020021FC82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182172981CDAE1020021FC82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182172991CDAE1020021FC82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182172B21CDAE1020021FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182172B31CDAE1020021FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182172B51CDAE1020021FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182172B61CDAE1020021FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		182172B81CDAE1020021FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.AddressBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBook.app/AddressBook";
+			};
+			name = Debug;
+		};
+		182172B91CDAE1020021FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.AddressBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBook.app/AddressBook";
+			};
+			name = Release;
+		};
+		182172BB1CDAE1020021FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddressBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.AddressBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressBook;
+			};
+			name = Debug;
+		};
+		182172BC1CDAE1020021FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddressBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.AddressBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182172821CDAE1010021FC82 /* Build configuration list for PBXProject "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182172B21CDAE1020021FC82 /* Debug */,
+				182172B31CDAE1020021FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182172B41CDAE1020021FC82 /* Build configuration list for PBXNativeTarget "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182172B51CDAE1020021FC82 /* Debug */,
+				182172B61CDAE1020021FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		182172B71CDAE1020021FC82 /* Build configuration list for PBXNativeTarget "AddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182172B81CDAE1020021FC82 /* Debug */,
+				182172B91CDAE1020021FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		182172BA1CDAE1020021FC82 /* Build configuration list for PBXNativeTarget "AddressBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182172BB1CDAE1020021FC82 /* Debug */,
+				182172BC1CDAE1020021FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1821727F1CDAE1010021FC82 /* Project object */;
+}
